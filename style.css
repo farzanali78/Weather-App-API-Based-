@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #222831;
+   background-color: #1C352D;
 
 }
 
@@ -21,14 +21,14 @@ body {
     transform: translate(-50%, -50%);
     width: 30vw;
     min-height: 70vh;
-    background-color: #31363F;
+    background-color: #A6B28B;
     border-radius: 8px;
 }
 
 .container h1 {
     text-align: center;
     font-weight: 700;
-    color: white;
+    color: #1C1C1C;
     margin-top: 15px;
 }
 
@@ -45,6 +45,7 @@ body {
     border: none;
     outline: none;
     padding: 5px 8px 5px 8px;
+    color: #1C1C1C;
 }
 
 #getWeather{
@@ -52,14 +53,15 @@ body {
     border-radius: 5px;
     border: none;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     transition: 0.3s ease;
+    color: #1C1C1C;
 }
 
 #getWeather:hover{
-    background-color: #31304D;
-    color: white;
+    background-color: #1C352D;
+    /* color: white; */
 }
 
 @media screen and (max-width:768px) {

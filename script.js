@@ -15,7 +15,7 @@ getWeatherBtn.addEventListener('click', async () => {
     errorMessage.innerHTML = ""
     const loadingMessage = document.createElement('p')
     loadingMessage.textContent = "fetching data..."
-    loadingMessage.style.color = "white"
+    loadingMessage.style.color = "#1C1C1C"
     loadingMessage.style.textAlign = "center"
     displayWeatherDetails.appendChild(loadingMessage)
 
@@ -40,7 +40,7 @@ if(event.key === "Enter"){
     errorMessage.innerHTML = ""
     const loadingMessage = document.createElement('p')
     loadingMessage.textContent = "fetching data..."
-    loadingMessage.style.color = "white"
+    loadingMessage.style.color = "#1C1C1C"
     loadingMessage.style.textAlign = "center"
     displayWeatherDetails.appendChild(loadingMessage)
 
@@ -84,11 +84,11 @@ function displayData(weatherInfo) {
     // cityName.textContent = name
     cityName.textContent = name
     cityName.style.textAlign = "center"
-    cityName.style.color = "white"
-    cityTemp.style.color = "white"
+    cityName.style.color = "#1C1C1C"
+    cityTemp.style.color = "#1C1C1C"
     cityTemp.innerHTML = `<p>Tempreture: ${main.temp}°C / ${fahrenhiet}°F</p>`
     cityTemp.style.textAlign = "center"
-    cityDescription.style.color = "white"
+    cityDescription.style.color = "#1C1C1C"
     cityDescription.innerHTML = `<p>Description: ${weather[0].description}</p>`
     cityDescription.style.textAlign = "center"
     displayWeatherDetails.appendChild(cityName)
